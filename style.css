@@ -71,3 +71,58 @@ img {
 .clear {
   clear: both;
 }
+
+
+@media screen and (max-width: 420px) {
+  /* Generali */
+  .row {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  img {
+    width: 30%;
+    height: auto;
+    margin-top: 3%;
+  }
+
+  .container.grey {
+    background-color: white;
+  }
+
+  h1 {
+    margin: 2% auto;
+  }
+
+  h3 {
+    margin: 0;
+  }
+  /* Fine generali */
+
+  /* Specifiche */
+  #lezioni .row {
+    background-color: #f5f5c9;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+
+  #why .row {
+    background-color: #f5f5c9
+  }
+  #why .row img {
+    width: 18%;
+    margin-top: 0;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin: 0;
+  }
+}
